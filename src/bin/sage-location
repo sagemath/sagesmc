@@ -275,7 +275,7 @@ def sage_relocate():
     write_location_file()
 
 
-if __name__ == '__main__':
+if __name__ == '__main__' and False:
 
     # Previous SAGE_ROOT, read from "sage-location.txt".
     # OLD_SAGE_ROOT is None if this is a first-time install.
